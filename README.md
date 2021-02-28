@@ -32,6 +32,8 @@ Then you can run the Tornado app using the command: `budget-management` (after i
 
 ### Installation:
 
+From the frontend directory: 
+
 Please run the command `npm install` to install all relevant packages.
 
 Then run `npm start` to run the frontend app
