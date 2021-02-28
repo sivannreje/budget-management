@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.table-area {
+  position: relative;
+  z-index: 0;
+  margin-top: 20px;
+}
+
+table {
+  top: 50px;
+  left: 0;
+  margin: auto;
+  right: 0;
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+thead {
+  width: 100%;
+  height: 20px;
+  line-height: 3em;
+  background: #eee;
+}
+
+th {
+  background: #eee;
+}
+
+td {
+  line-height: 1em;
+}
+
+td,
+th {
+  margin: 0;
+  padding: 5px;
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  width: 100%;
+}
+
+.form > .container {
+  padding: 0 10%;
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+label {
+  margin: 20px 0 10px 0;
+  display: block;
+  color: #394a59;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+}
+.input-container > input {
+  width: 100%;
+  padding: 5px 10px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #d5dee6;
+  background: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  color: #757575;
+}
+.input-container:focus {
+  outline: none;
+  background: white;
+}
+
+.input-container > button {
+  background: #285177;
+  margin: 10px auto;
+  border: none;
+  color: white;
+  width: 100px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
