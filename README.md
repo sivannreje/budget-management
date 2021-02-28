@@ -7,7 +7,7 @@ This app is a REST api application built using Tornado framework and the DB is M
 ### Prerequisites:
 
 * MongoDB
-* Python
+* Python3.7
 
 ### Installation
 
